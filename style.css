@@ -1,0 +1,121 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    padding: 10px 30px;
+    color: white;
+}
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+.logo-section img {
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+}
+.logo-section strong {
+    font-size: 1.2em;
+    color: white;
+}
+.logo-section span {
+    margin-left: 10px;
+    color: #ccc;
+}
+.menu {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu a:hover {
+    color: #f0c040;
+}
+.dot {
+    height: 4px;
+    width: 4px;
+    background-color: #aaa;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dropdown {
+    position: relative;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #222;
+    min-width: 150px;
+    top: 25px;
+    z-index: 1;
+}
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.dropdown-content a:hover {
+    background-color: #333;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+.hero {
+      background: url('https://your-image-link.jpg') no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 1px 1px 3px #000;
+      font-size: 2rem;
+    }
+    .content {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .content h2 {
+      margin-bottom: 20px;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .product {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+      background: white;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    }
+    .product img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+    .product h3 {
+      padding: 10px;
+    }
+    footer {
+      background: #111;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
