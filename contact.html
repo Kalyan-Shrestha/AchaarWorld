@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
     <nav>
@@ -34,6 +36,47 @@
       
     </div>
   </nav>
+
+  <section class="contact-container">
+  <div class="contact-info">
+    <h2>Get in Touch</h2>
+    <p>Chyamasingh<br>Bhaktapur, Nepal<br>achaarworld@gmail.com<br>456-7890</p>
+    <div class="social-icons">
+      <!-- Instagram -->
+      <i class="fab fa-instagram"></i>
+
+      <!-- Facebook -->
+      <i class="fab fa-facebook-f"></i>
+
+      <!-- Twitter -->
+      <i class="fab fa-twitter"></i>
+
+      <!-- WordPress -->
+      <i class="fab fa-wordpress"></i>
+
+    </div>
+  </div>
+
+  <div class="contact-form">
+    <h2>Send Us a Message</h2>
+    <form>
+      <label for="name">Name <span>(required)</span></label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email <span>(required)</span></label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="website">Website</label>
+      <input type="url" id="website" name="website">
+
+      <label for="message">Message <span>(required)</span></label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
 
   <footer>
     Achaar World, Add flavors to your life.
